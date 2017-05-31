@@ -1,37 +1,54 @@
-## Welcome to GitHub Pages
+@{
+    ViewBag.Title = "Home Page";
+}
 
-You can use the [editor on GitHub](https://github.com/maromerol/OVI16/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<div class="jumbotron">
+    <h1>Objeto Virtual de Informaciòn</h1>
+    <p class="lead">El grupo colaborativo creará un Objeto Virtual de Información OVI y lo publicará en la Internet a través de un repositorio colaborativo de GITHUB por medio del servicio Github Pages.</p>
+    <p><a href="~/Home/Participantes" class="btn btn-primary btn-lg">Participantes &raquo;</a></p>
+</div>
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Manual Identidad Institucional</h2>
+            <div style="text-align:justify;">
+                <p>
+                    La imagen institucional de la Universidad Nacional
+                    Abierta y a Distancia (UNAD)
+                    es fruto del trabajo de la comunidad universitaria que se abrio paso en el contexto
+                    educativo nacional gestando desde la creacion.
+                </p>
+                <p><a class="btn btn-default" href="~/Home/ManualII"> Ver mas &raquo;</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h2>E. de Ciencias Básicas, Tecnología e Ingeniería</h2>
+                <div style="text-align:justify;">
+                    <p>
+                        La Escuela de Ciencias Básicas, Tecnología e Ingeniería,
+                        tiene como misión contribuir a la educación para todos
+                        con programas en Ciencia, Tecnología e Ingeniería en la
+                        modalidad de educación a distancia
+                    </p>
+                    <p><a class="btn btn-default" <a href="https://academia.unad.edu.co/ecbti</a>"> Ver mas &raquo;</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Manual Identidad Institucional</h2>
+                    <div style="text-align:justify;">
+                        <p>
+                            La imagen institucional de la Universidad Nacional Abierta y a Distancia (UNAD)
+                            es fruto del trabajo de la comunidad universitaria que se abrio paso en el contexto
+                            educativo nacional gestando desde la creacion.
+                        </p>
+                        <p><a class="btn btn-default" href="~/Content/Pdf/Manual_Identidad_Institucional.pdf</a>"> Ver mas &raquo;</a></p>
+                    </div>
+                </div>
+            </div>
+             <hr />
+            <div style="text-align:center">
+                <img src="~/Content/Imagenes/fondo1.jpg" width="1135" height="350" />
+            </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/maromerol/OVI16/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
